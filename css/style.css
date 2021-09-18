@@ -167,3 +167,106 @@ h2 {
     font-weight: 400;
     color: var(--color-grey);
 }
+
+.benefits {
+    background-color: var(--color-light-grey);
+    padding: 100px 0;
+}
+
+.benefits__container {
+    padding: 0 100px;
+}
+
+.benefits-single {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid #e8e9ed;
+    margin-bottom: 37px;
+    border-radius: 5px;
+}
+
+.benefits__text {
+    max-width: 415px;
+    margin: 90px 36px;
+}
+
+.benefits__text::after {
+    content: "";
+    width: 332px;
+    height: 4px;
+    display: block;
+    margin-top: 50px;
+}
+
+.benefits__paragraph {
+    margin-top: 30px;
+    line-height: 13px;
+}
+
+.benefits__image {
+    position: relative;
+}
+
+.benefits__image img {
+    position: relative;
+    z-index: 2;
+}
+
+.benefits__single--macbook {
+    background-color: var(--color-redish);
+}
+
+.benefits__single--macbook .macbook {
+    margin-right: 117px;
+    margin-bottom: 38px;
+}
+
+.benefits__single--macbook .macbook::before {
+    content: "";
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-redish);
+    display: block;
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    transform: rotate(45deg);
+}
+
+.benefits__single--macbook .benefits__image img {
+    width: 386px;
+    height: auto;
+}
+
+.benefits-single--iphone {
+    background-color: var(--color-primary);
+    flex-direction: row-reverse;
+    padding: 0 20px 0 70px;
+}
+
+.benefits-single--iphone .iphone::before {
+    content: "";
+    width: 320px;
+    height: 320px;
+    background-color: var(--color-primary);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.benefits-single--iphone .iphone img {
+    width: 426px;
+    height: auto;
+}
+
+.benefits-single--iphone .benefits__text {
+    margin: 70px 0;
+}
+
+
+
