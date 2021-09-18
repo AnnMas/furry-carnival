@@ -58,7 +58,7 @@ a {
     padding: 28px 18px 22px;
 }
 
-.nav_link:hover {
+.nav__link:hover {
     color: var(--color-black);
     border-color: var(--color-primary);
 }
@@ -98,7 +98,7 @@ a {
     display: inline-block;
 }
 
-.large-btn {
+.large--btn {
     background-color: var(--color-primary);
     box-shadow: 5px 10px 14px var(--color-primary-shadow);
 }
@@ -108,7 +108,7 @@ a {
     height: auto;
 }
 
-.statistics-container {
+.statistics__container {
     display: flex;
     justify-content: space-between;
     width: 800px;
@@ -124,7 +124,7 @@ h2 {
     text-align: center;
 }
 
-.single-statistics {
+.single__statistics {
     display: flex;
     flex-direction: column;
     font-family: var(--font-raleway);
@@ -134,7 +134,7 @@ h2 {
     max-width: 160px;
 }
 
-.circle-statistics {
+.circle__statistics {
     border-radius: 50%;
     position: relative;
     width: 63px;
@@ -153,16 +153,16 @@ h2 {
     background-color: var(--color-green);
 }
 
-.statistics-icon {
+.statistics__icon {
     position: absolute;
 }
 
-.statistics-number {
+.statistics__number {
     font-size: 20px;
     font-weight: 800;
 }
 
-.statistics-text {
+.statistics__text {
     font-size: 17px;
     font-weight: 400;
     color: var(--color-grey);
