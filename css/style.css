@@ -295,3 +295,111 @@ h2 {
     height: auto;
 }
 
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.pricing__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.pricing__box {
+    width: 370px;
+    border-radius: 18px;
+    border: 1px solid var(--color-redish);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box--details {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.box--type {
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box--price {
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    font-weight: 300;
+    color: var(--color-redish);
+}
+
+.limited {
+    text-align: center;
+    font-family: var(--font-raleway);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pricing__items {
+    text-align: center;
+}
+
+.item {
+    font-family: var(--font-open-sans);
+    font-size: 14px;
+    list-style: none;
+}
+
+.item::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-image: url(../assets/Checkmark-1.svg);
+}
+
+.item--not::before {
+    background-image: url(../assets/Close.svg);
+}
+
+.pricing__box .btn {
+    position: relative;
+    background-color: var(--color-redish);
+    font-size: 13px;
+    bottom: -25px;
+}
+
+.box--basic {
+    width: 370px;
+    height: 460px;
+} 
+
+.box--basic .btn {
+    background-color: var(--color-redish);
+}
+
+.box--professional {
+    border: 1px solid var(--color-primary);
+    width: 400px;
+    height: 500px;
+    box-shadow: 5px 1px 27px var(--color-primary-shadow);
+}
+
+.box--professional .btn {
+    background-color: var(--color-primary);
+}
+
+.box--premium {
+    border: 1px solid var(--color-green);
+    width: 370px;
+    height: 460px;
+}
+
+.box--premium .btn {
+    background-color: var(--color-green);
+}
