@@ -268,5 +268,30 @@ h2 {
     margin: 70px 0;
 }
 
+.benefits__double {
+    display: flex;
+}
 
+.benefits__double > div {
+    margin-bottom: 0;
+}
+
+.benefits__single--text {
+    max-width: 620px;
+}
+
+.benefits__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: var(--color-green);
+    border: none;
+    margin-left: 60px;
+}
+
+.trumpet img {
+    width: 295px;
+    height: auto;
+}
 
